@@ -1,0 +1,56 @@
+{
+  "successful": true,
+  "resultValue": [
+    {
+      "fzgid": 10047,
+      "fzgtypeid": 10107,
+      "fzgtypename": null,
+      "infzgno": 10101,
+      "equiploc": "1-1-1",
+      "equipid": 20099,
+      "equiptypeid": 1,
+      "equiptypename": "I型集中器",
+      "assetno": "0d6928ab-93e9-41b1-a587-5f07993a8f1f",
+      "measureindex": null,
+      "terminalid": 20099,
+      "fzano": 235,
+      "workOrdersVOs": [
+        {
+          "workorderid": 606,
+          "workorderstatus": 2,
+          "faultname": "终端与主站无通信",
+          "faulttypename": "采集异常",
+          "faultid": 1101,
+          "faulttypeid": 1,
+          "workorderstatusname": "待反馈",
+          "reasonList": [
+            {
+              "reasonid": "8302",
+              "reasonname": "终端死机",
+              "reasontypeid": null
+            }
+          ]
+        },
+        {
+          "workorderid": 607,
+          "workorderstatus": 0,
+          "faultname": "电能表持续多天无抄表数据",
+          "faulttypename": "采集异常",
+          "faultid": 1104,
+          "faulttypeid": 1,
+          "workorderstatusname": "新生成",
+          "reasonList": [
+            {
+              "reasonid": "8609",
+              "reasonname": "电能表时钟错误",
+              "reasontypeid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resultHint": "",
+  "errorPage": "",
+  "type": ""
+}

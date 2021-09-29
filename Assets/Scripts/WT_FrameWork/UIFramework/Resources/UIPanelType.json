@@ -1,0 +1,36 @@
+{
+	"infoList": [
+		{
+			"panelTypeString": "Main",
+			"path": "UIPanel/MainPanel"
+		},
+		{
+			"panelTypeString": "WTDog",
+			"path": "UIPanel/WTDogPanel"
+		},
+		{
+			"panelTypeString": "Load",
+			"path": "UIPanel/LoadPanel"
+		},
+		{
+			"panelTypeString": "Set",
+			"path": "UIPanel/SetPanel"
+		},
+		{
+			"panelTypeString": "Notice",
+			"path": "UIPanel/NoticePanel"
+		},
+		{
+			"panelTypeString": "FaceLogin",
+			"path": "UIPanel/FaceLoginPanel"
+		},
+		{
+			"panelTypeString": "Video",
+			"path": "UIPanel/VideoPanel"
+		},
+		{
+			"panelTypeString": "Dev",
+			"path": "UIPanel/DevPanel"
+		}
+	]
+}

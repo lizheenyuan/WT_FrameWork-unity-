@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:f2f8a55c6249fa658a24ca2479e43981:0e6fa6a54481e9cd45e9bc7ff615da2b:29b76f1cbf5aaaa9a37ac8fe27048b84$
+#
+:format=40300
+:texture=car.png
+:size=512x512
+:pivotpoints=enabled
+:borders=disabled
+
+car0;0;384;256;128; 0.5;0.5; 0;0;0;0
+car1;256;384;256;128; 0.5;0.5; 0;0;0;0
+car2;0;256;256;128; 0.5;0.5; 0;0;0;0
+car3;256;256;256;128; 0.5;0.5; 0;0;0;0

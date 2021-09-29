@@ -1,0 +1,28 @@
+{
+  "successful": true,
+  "resultValue": {
+    "fzgid": 10047,
+    "fzgname": "92号虚拟仿真柜",
+    "fzgtypeid": 10107,
+    "fzgtypename": "虚拟4",
+    "fzaVOs": [
+      {
+        "id": 235,
+        "fzaname": "低压台1",
+        "fzuVOs": [
+          {
+            "fzuno": 11,
+            "fzutypecode": "WT-MK003"
+          },
+          {
+            "fzuno": 12,
+            "fzutypecode": "WT-MK006"
+          }
+        ]
+      }
+    ]
+  },
+  "resultHint": "",
+  "errorPage": "",
+  "type": ""
+}
