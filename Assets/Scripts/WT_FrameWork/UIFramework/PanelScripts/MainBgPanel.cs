@@ -5,6 +5,7 @@ using Assets.Scripts.WT_FrameWork.UIFramework.Base;
 using Assets.Scripts.WT_FrameWork.UIFramework.Manager;
 using Assets.Scripts.WT_FrameWork.Util;
 using DG.Tweening;
+using Tools;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -25,11 +26,14 @@ public class MainBgPanel : BasePanel
 
    private void OnRoamClick()
    {
-      GameRoot.Scenemanager.LoadScene("Roam", () =>
-      {
-         GameRoot.DownLoader.LoadAssetFromBundle<GameObject>("roaminteractable.unity3d", "interactables", (obj) => { GameObject objx =Instantiate(obj,null) as GameObject;});
-      });
-      ClosePanel();
+      // GameRoot.Scenemanager.LoadScene("Roam", () =>
+      // {
+      //    GameRoot.DownLoader.LoadAssetFromBundle<GameObject>("roaminteractable.unity3d", "interactables", (obj) => { GameObject objx =Instantiate(obj,null) as GameObject;});
+      // });
+      // ClosePanel();
+      WorkerSpeaker.Instance.TextPanel = GetComponent<Text>("Text");
+      WorkerSpeaker.Instance.TSS = TextShowStyle.StrUnderLine;
+      WorkerSpeaker.Instance.Speak("冷却装置|对于大容量变压器，除了散热片或散热管散热外，还加装冷却风扇。强迫油循环风冷。");
    }
 
    protected override void InitDB()

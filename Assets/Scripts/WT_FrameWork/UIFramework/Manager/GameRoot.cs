@@ -246,12 +246,12 @@ namespace Assets.Scripts.WT_FrameWork.UIFramework.Manager
             //yield return Util.Util.LoadConfigFromFile();
             flp.S_Progress.value += 0.2f;
            
-            yield return _downLoader.LoadAssetBundle((ab) =>
-            {
-            }, Util.Util.BundleRootPath + "wt_font.unity3d");
-            yield return _downLoader.LoadAssetBundle((ab) =>
-            {
-            }, Util.Util.BundleRootPath + "shaders.unity3d");
+            // yield return _downLoader.LoadAssetBundle((ab) =>
+            // {
+            // }, Util.Util.BundleRootPath + "wt_font.unity3d");
+            // yield return _downLoader.LoadAssetBundle((ab) =>
+            // {
+            // }, Util.Util.BundleRootPath + "shaders.unity3d");
             yield return _downLoader.LoadAssetBundle((ab) =>
             {
                 UIManager.Instance.InitUI(ab);
